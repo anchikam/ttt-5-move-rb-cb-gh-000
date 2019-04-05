@@ -11,7 +11,7 @@ def input_to_index(n)
   n = n-1
 end
 
-def move(array, index, x_or_o="X")
+def move(array, index, x_or_o=" X ")
   index = input_to_index(index)
   array[index] = x_or_o
 end
