@@ -7,6 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 n = gets
 
-board = [0] * 9
-board = move(board, n)
+board = move([0] * 9, n)
 display_board(board)
