@@ -9,5 +9,5 @@ n = gets
 
 board = [0] * 9
 
-move(board, n)
+move(board, n, "X")
 display_board(board)
