@@ -5,9 +5,9 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
-n = gets.strip
+input = gets.strip
 
 board = [" "] * 9
 
-move(board, n, "X")
+move(board, input, "X")
 display_board(board)
