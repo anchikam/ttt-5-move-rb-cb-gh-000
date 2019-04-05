@@ -6,11 +6,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(n):
+def input_to_index(n)
   n = n.to_i
   n = n-1
 end
 
-def move(n):
+def move(n)
   n
 end
