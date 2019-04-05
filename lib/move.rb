@@ -13,5 +13,5 @@ end
 
 def move(array, index, token="X")
   array[index] = token
-  puts "The element at index #{index} of array 'board' is set to the value #{token}"
+  # puts "The element at index #{index} of array 'board' is set to the value #{token}"
 end
