@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(n)
-  n = n.to_i
-  n = n+1
+  n = n.strip.to_i
+  n = n-1
 end
 
 def move(board, index, x_or_o="X")
