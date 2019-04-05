@@ -12,7 +12,6 @@ def input_to_index(n)
 end
 
 def move(array, index, token="X")
-  index = input_to_index(index)
   array[index] = token
   puts "The element at index #{index} of array 'board' is set to the value #{token}"
 end
